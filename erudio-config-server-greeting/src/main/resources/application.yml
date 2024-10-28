@@ -7,9 +7,9 @@ spring:
         config:
             server:
                 git:
-                    uri: https://github.com/oFernandoLima/erudio-config-server
-                    username: username
-                    password: password
+                    uri: https://github.com/oFernandoLima/microsservices-java-spring-boot-erudio.git
+                    # username: username
+                    # password: password
                     default-label: main
                     search-paths:
-                    - 'greeting-service*'
+                    - 'erudio-config-server/greeting-service*'
